@@ -9,7 +9,11 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b7633b6-91c2-4d9c-80c2-5897a3f35d39" name="Default Changelist" comment="" />
+    <list default="true" id="0b7633b6-91c2-4d9c-80c2-5897a3f35d39" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_info.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +62,7 @@
     <property name="show.do.not.ask.upgrade.gradle.version" value="5.4.1" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager" selected="Android JUnit._1_StartTheStoreInformationActivity.create_intent_infoactivity">
+  <component name="RunManager" selected="Android JUnit._2_StartTheGoogleMapsActivity">
     <configuration name="_1_StartTheStoreInformationActivity" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <extension name="coverage">
@@ -109,14 +113,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.pluralsight.candycoded in app" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_1_StartTheStoreInformationActivity.startactivity_infoactivity" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <extension name="coverage">
         <pattern>
@@ -125,7 +122,32 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.pluralsight.candycoded" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.candycoded._1_StartTheStoreInformationActivity" />
+      <option name="METHOD_NAME" value="startactivity_infoactivity" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_2_StartTheGoogleMapsActivity" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pluralsight.candycoded.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pluralsight.candycoded" />
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.candycoded._2_StartTheGoogleMapsActivity" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
@@ -184,10 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Android JUnit._2_StartTheGoogleMapsActivity" />
+        <item itemvalue="Android JUnit._1_StartTheStoreInformationActivity.startactivity_infoactivity" />
+        <item itemvalue="Android JUnit._1_StartTheStoreInformationActivity" />
         <item itemvalue="Android JUnit._1_StartTheStoreInformationActivity.create_intent_infoactivity" />
         <item itemvalue="Android JUnit._1_StartTheStoreInformationActivity.mainactivity_onoptionitemselected_return_super" />
-        <item itemvalue="Android JUnit._1_StartTheStoreInformationActivity" />
-        <item itemvalue="Android JUnit.com.pluralsight.candycoded in app" />
       </list>
     </recent_temporary>
   </component>
@@ -202,32 +225,56 @@
       <option name="presentableId" value="Default" />
       <updated>1572482991570</updated>
     </task>
+    <task id="LOCAL-00001" summary="test 1 and test 2 solved. with test two I filled the uri with dome data">
+      <created>1601026934511</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601026934511</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test 1 and test 2 solved. with test two I filled the uri with dome data" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 1 and test 2 solved. with test two I filled the uri with dome data" />
   </component>
   <component name="WindowStateProjectService">
     <state x="526" y="252" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1601024866465">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="526" y="252" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1601024866465" />
+    <state x="251" y="0" key="CommitChangelistDialog2" timestamp="1601026932724">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="251" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1601026932724" />
     <state x="501" y="258" key="Github.ShareDialog" timestamp="1601026857920">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="501" y="258" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1601026857920" />
-    <state width="1306" height="267" key="GridCell.Tab.0.bottom" timestamp="1601026627455">
+    <state width="1306" height="105" key="GridCell.Tab.0.bottom" timestamp="1601033691105">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="267" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601026627455" />
-    <state width="1306" height="267" key="GridCell.Tab.0.center" timestamp="1601026627453">
+    <state width="1306" height="105" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601033691105" />
+    <state width="1306" height="105" key="GridCell.Tab.0.center" timestamp="1601033691105">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="267" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601026627453" />
-    <state width="1306" height="267" key="GridCell.Tab.0.left" timestamp="1601026627453">
+    <state width="1306" height="105" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601033691105" />
+    <state width="1306" height="105" key="GridCell.Tab.0.left" timestamp="1601033691104">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="267" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601026627453" />
-    <state width="1306" height="267" key="GridCell.Tab.0.right" timestamp="1601026627453">
+    <state width="1306" height="105" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601033691104" />
+    <state width="1306" height="105" key="GridCell.Tab.0.right" timestamp="1601033691105">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="267" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601026627453" />
+    <state width="1306" height="105" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601033691105" />
+    <state x="275" y="92" key="Vcs.Push.Dialog.v2" timestamp="1601026940502">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="92" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601026940502" />
+    <state x="359" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1601033111951">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="359" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1601033111951" />
   </component>
 </project>

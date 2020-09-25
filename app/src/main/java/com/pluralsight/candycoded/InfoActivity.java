@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.ImageView;
 
 import com.squareup.picasso.Picasso;
@@ -27,15 +28,25 @@ public class InfoActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        // ***
-        // TODO - Task 2 - Launch the Google Maps Activity
-        // ***
-        Uri mapsUri = Uri.parse("google.streetview:cbll=46.414382,10.013988");
-        Intent intent = new Intent(Intent.ACTION_VIEW,mapsUri);
-        startActivity(intent);
+
         // ***
         // TODO - Task 3 - Launch the Phone Activity
         // ***
+    }
+
+    public void createMapIntent(View view)
+    {
+        // ***
+        // TODO - Task 2 - Launch the Google Maps Activity
+        // ***
+        Uri mapsUri = Uri.parse("geo:0,0?q=618 E South St Orlando, FL 32801");
+        Intent mapIntent  = new Intent(Intent.ACTION_VIEW,mapsUri);
+        mapIntent.setPackage("com.google.android.apps.maps");
+        if (!(mapIntent.resolveActivity(getPackageManager()) == null))
+        {
+            startActivity(mapIntent);
+        }
+
     }
 
 
