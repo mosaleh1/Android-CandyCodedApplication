@@ -25,14 +25,7 @@ public class InfoActivity extends AppCompatActivity {
 
     }
 
-    @Override
-    protected void onStart() {
-        super.onStart();
 
-        // ***
-        // TODO - Task 3 - Launch the Phone Activity
-        // ***
-    }
 
     public void createMapIntent(View view)
     {
@@ -47,6 +40,17 @@ public class InfoActivity extends AppCompatActivity {
             startActivity(mapIntent);
         }
 
+    }
+
+    public void createPhoneIntent(View view)
+    {
+        // ***
+        // TODO - Task 3 - Launch the Phone Activity
+        Uri phoneUri = Uri.parse("tel:0123456789");
+        Intent dialIntent = new Intent(Intent.ACTION_DIAL);
+        dialIntent.setData(phoneUri);
+        startActivity(dialIntent);
+        // ***
     }
 
 
